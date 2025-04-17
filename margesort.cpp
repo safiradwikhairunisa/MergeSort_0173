@@ -61,5 +61,19 @@ void mergeSort(int low, int high)
             B[k] = arr[i];
             i++;
         }
+        else
+        {
+            B[k] = arr[j];
+            j++;
+        }
+        k++;  //step 4d.ii
     }
+
+    while (j <= high)  //step 4e
+    {
+        B[k] = arr[i] //step 4e.i
+        j++;  //step 4e.ii
+        k = k + 1;  //step 4e.iii
+    }
+    
 }
