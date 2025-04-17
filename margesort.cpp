@@ -42,4 +42,5 @@ void margeSort(int low, int high)
         return; // step 1a
     }
     
+    int mid = (low + high) / 2;  //step 2
 }
