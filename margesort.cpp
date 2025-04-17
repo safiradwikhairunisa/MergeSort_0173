@@ -32,3 +32,14 @@ void input()
         cin >> arr[i];
     }
 }
+
+// create function margeSort
+void margeSort(int low, int high)
+{
+
+    if (low >= high) //step 1
+    {
+        return; // step 1a
+    }
+    
+}
